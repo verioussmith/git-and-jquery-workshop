@@ -1,6 +1,10 @@
 // console.log("main.js is loaded");
 $(document).ready(function(){
-	//Code here.
+	$("button").on("click", function(){
+		$(".booboo").html(
+			$("textarea").val()
+		);
+	});
 	
 	$("li").on("click", function(){
 
@@ -34,4 +38,4 @@ $(document).ready(function(){
 	// });
 
 });
-I was here.
+//I was here.
