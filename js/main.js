@@ -5,13 +5,9 @@ $(document).ready(function(){
 	$("li").on("click", function(){
 
 		if ($(this).hasClass("done")){
-
-			$(this).removeClass("done")
-		
+			$(this).removeClass("done");
 		} else {
-		
 			$(this).addClass("done");
-		
 		}
 
 
